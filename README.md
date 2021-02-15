@@ -1,2 +1,6 @@
 # nils.lol
-repo for personal website
+my personal website with embedded bash <br> <br>
+
+# inspired by
+https://hashbang.sh
+https://hackerc.at
