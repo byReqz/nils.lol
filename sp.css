@@ -1,16 +1,31 @@
 * {
   font-family: 'Hack','Hack Nerd Font', 'SF Mono', 'Source Code Pro', 'Sauce Code Pro', 'Courier','Consolas', monospace;
-  background-color: #0c0a20;
+  background-color: #0c0a20 !important;
   color: white;
   text-indent:-9999px;
 }
 
-#test {
+#darkreader {
   color: #0c0a20;
   background-color: transparent;
   position: absolute;
   left: 60px;
 }
+
+#so {
+  position: absolute;
+  left: 52%;
+  color: white;
+  text-indent: 0px;
+}
+
+#keys {
+  position: absolute;
+  right: 52%;
+  color: white;
+  text-indent: 0px;
+}
+
 
 a, .toctext {
   color: #DF85FF !important;
