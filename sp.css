@@ -1,6 +1,6 @@
 * {
   font-family: 'Hack','Hack Nerd Font', 'SF Mono', 'Source Code Pro', 'Sauce Code Pro', 'Courier','Consolas', monospace;
-  background-color: #0c0a20 !important;
+  background-color: #0c0a20;
   color: white;
   text-indent:-9999px;
 }
@@ -43,7 +43,7 @@ p {
 
 ::selection {
   background-color:#8b32ad;
-  user-select:none
+  user-select:none;
 } 
 
 body {
