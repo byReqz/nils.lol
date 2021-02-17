@@ -84,4 +84,15 @@ printf "      \e[0;36m/  .-.  \ \n\e[0m"
 printf "     \e[0;36m/  (   ) _\ \n\e[0m" 
 printf "    \e[0;36m/ _.~   ~._^\ \n\e[0m"
 printf "   \e[0;36m/.^         ^.\ \n\e[0m"
+if [[ -n $(gpg --version | grep Cipher)  ]];then
+  echo "do you want to import my gpg keys? (Y/n)"
+  read yn
+  if [[ $yn == y ]] || [[ $yn == yes ]] || [[ -z $yn ]];then
+    gpg --recv-keys 0x396A62D7D436749E
+    gpg --recv-keys 0x49F924B3CEE307B2
+    echo "keys have been imported"
+  else
+    echo "keys not imported"
+  fi
+fi
 exit 0
